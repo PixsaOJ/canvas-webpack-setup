@@ -1,0 +1,24 @@
+{
+  "name": "canvas-template",
+  "version": "1.0.0",
+  "description": "webpack and HTML5 canvas setup.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node.js","webpack","browser-sync","canvas"],
+  "author": "Pixsa",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^1.19.1",
+    "jquery": "^3.2.1",
+    "normalize-css": "^2.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "webpack": "^2.7.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
